@@ -31,6 +31,6 @@ jobs:
           context: ./src 
           file: ./src/dockerfile
           push: true
-          tags:
+          tags: |
             mario8js/rotten-potatoes:latest
             mario8js/rotten-potatoes:${{ github.run_number }}
